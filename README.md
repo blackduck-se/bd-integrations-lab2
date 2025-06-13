@@ -113,7 +113,7 @@ extends: .run-black-duck-tools
 2. Log into Polaris and [create a policy](https://polaris.blackduck.com/developer/default/polaris-documentation/t_post_scan_policies) that breaks the build and assign it to your project.
 3. Run the pipeline again. Once it completes, select the failed polaris step to see policy enforcement and a failed pipeline. **Milestone 2** :heavy_check_mark:
 4. Click on the link in the console output to view the findings in Polaris. **Milestone 3** :heavy_check_mark:
-5. Download the SARIF Report via _GitLab → Project → Build → Download Artifacts (download icon right side)_ **Milestone 5** :heavy_check_mark:
+5. Download the SARIF Report via _GitLab → Project → Build → Download Artifacts (download icon right side)_ **Milestone 4** :heavy_check_mark:
 
 # PR scan
 
